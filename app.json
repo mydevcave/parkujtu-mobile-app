@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "parkujtu-mobile-app",
+    "slug": "parkujtu-mobile-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mydevcaveparkujtu.parkujtumobileapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mydevcaveparkujtu.parkujtumobileapp"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3734fdc2-f307-4e85-9c43-a3c75e754bf2"
+      }
+    },
+    "owner": "mydevcave-parkujtu",
+    "updates": {
+      "url": "https://u.expo.dev/3734fdc2-f307-4e85-9c43-a3c75e754bf2"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
